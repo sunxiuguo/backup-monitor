@@ -7,7 +7,6 @@ from typing import Any
 from urllib.parse import quote
 
 from aiohttp import ClientError
-
 from homeassistant.core import HomeAssistant
 
 from ..const import CONF_BASE_URL, CONF_PASSWORD, CONF_VERIFY_SSL

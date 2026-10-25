@@ -1,6 +1,6 @@
 {
   "custom_components/backup_monitor/binary_sensor.py": "2f88d4c773cdd18cd0a185823d2da544e913b91808d62a7ad8ccc843f1779fbe",
-  "custom_components/backup_monitor/providers/duplicati.py": "b56b72e000f0f1303e4b2a33ac586b7265c895f354c6e25a0448826a389e396f",
+  "custom_components/backup_monitor/providers/duplicati.py": "d7c687a1807f9e143884d04d7c69c475d792665f4ccb8f2fc3c8661010a1a8f5",
   "custom_components/backup_monitor/sensor.py": "5483f5c60b3e09dbc57fbb971ca8bf6156faead016600f3965d932eaa268dbe7",
   "tests/fixtures/duplicati/backup_result_cases.json": "da60ddbe087afeabe3452f5adc45304b7703b1d09f200e2edff45b98788bbd9d",
   "tests/test_duplicati_result_workflow.py": "3a9d742ca5c3d37922cb7eca5a4a14f7e44559fbc094ae433fc024d428e75117"
