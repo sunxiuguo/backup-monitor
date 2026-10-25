@@ -2,6 +2,7 @@ name: CI
 
 on:
   push:
+    branches-ignore: ["fix/duplicati-latest-result-log"]
   pull_request:
 
 jobs:

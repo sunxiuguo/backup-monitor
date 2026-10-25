@@ -1,0 +1,20 @@
+{
+  "pyric": {
+    "filename": "PyRIC-0.1.6.3.tar.gz",
+    "size": 870401,
+    "url": "https://files.pythonhosted.org/packages/08/64/a99f27d3b4347486c7bfc0aa516016c46dc4c0f380ffccbd742a61af1eda/PyRIC-0.1.6.3.tar.gz",
+    "sha256": "b539b01cafebd2406c00097f94525ea0f8ecd1dd92f7731f43eac0ef16c2ccc9"
+  },
+  "setuptools": {
+    "filename": "setuptools-80.9.0-py3-none-any.whl",
+    "size": 1201486,
+    "url": "https://files.pythonhosted.org/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl",
+    "sha256": "062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922"
+  },
+  "wheel": {
+    "filename": "wheel-0.45.1-py3-none-any.whl",
+    "size": 72494,
+    "url": "https://files.pythonhosted.org/packages/0b/2c/87f3254fd8ffd29e4c02732eee68a83a1d3c346ae39bc6822dcbcb697f2b/wheel-0.45.1-py3-none-any.whl",
+    "sha256": "708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248"
+  }
+}

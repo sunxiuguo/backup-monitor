@@ -1,0 +1,12 @@
+{
+  ".github/workflows/ci.yml": "049db9eae475fc5a8351378076fc9aaa20de3326d99331964744894a166e5004",
+  ".github/workflows/hassfest.yml": "911f8698e8335963532e05f72626613d0be602cdc502960487a65d1d5129e8c9",
+  ".github/workflows/validate-duplicati-result.yml": "f170cfea0a6c42d9d37eab9e83f8a81c7c9ffd188e5112b5a4282ad5376b619d",
+  ".validation/baseline-tree.json": "38cfba2442dd872b70430345faa2828e81d6ea22f3e21f11dee3950ce67d898a",
+  ".validation/build-inputs.json": "2ee5f8bc6ecd5d79d7edf53ae340f59b9416babb7cb5a541c317c941e4eff7e9",
+  ".validation/candidate-hashes.json": "a92e2644dba5e2e23ede1f8b6f96d84972bb8dc9f08f479b5ec3d685e53355ce",
+  ".validation/requirements.lock": "d25d21212db17d7070dfd1eae69f06f0faec5513770ea1581d848e9aed8a817f",
+  ".validation/run_native.py": "680aa60cd1fbee9f0e35b4de88816a9778d6295c23ccb38e577dbd2bfc566f6e",
+  ".validation/test_guards.py": "ebf53ff71b7cdcef4137fd163a98f77eed8730d5e0a7d3e1a07a03d75ef96f9d",
+  ".validation/wheels.json": "2499c06d200bbedb98ca64a83429b62fe87d8b8aad21cf0e2013f969f6453615"
+}

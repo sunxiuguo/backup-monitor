@@ -1,0 +1,30 @@
+name: Validate Duplicati latest result repair
+on:
+  push:
+    branches: ["fix/duplicati-latest-result-log"]
+permissions:
+  contents: read
+concurrency:
+  group: duplicati-result-validation
+  cancel-in-progress: false
+jobs:
+  native-regression:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: "3.14.2"
+          check-latest: false
+      - name: Verify sources, build only audited PyRIC, run native regression
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: "1"
+          PIP_DISABLE_PIP_VERSION_CHECK: "1"
+          PIP_NO_INDEX: "1"
+        run: |
+          python .validation/test_guards.py
+          python .validation/run_native.py
